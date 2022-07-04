@@ -11,4 +11,5 @@ def main(n):
     """
     for i in range(n):
         print(i)
+        
 print(main(10))
