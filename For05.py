@@ -7,4 +7,7 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    x = list(range(A, B+1))
+    return x[::-1]
+
+print(main(1,5))
